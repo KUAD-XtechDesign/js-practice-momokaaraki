@@ -1,7 +1,7 @@
 $(function(){
 
 　let txt1 = "おはようございます！";
-　let text2 = "おげんきですか？";
+　let txt2 = "おげんきですか？";
 　let num1 = 20;
 　let num2 = 32;
 
@@ -14,7 +14,7 @@ $(function(){
 　})
 
 　$("#button3").on("click",function(){
-    $("#content").text(txt1+text2);
+    $("#content").text(txt1+txt2);
 　})
 
 　$("#button04").on("click",function(){
